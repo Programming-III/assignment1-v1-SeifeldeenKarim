@@ -21,7 +21,7 @@ class Enclosure{
             currentCount=curr;
 animals=new Animal[cap];   }
 ~Enclosure(){
-    
+    delete[] animals;
 }
 
 void addAnimal(Animal* a){
