@@ -37,9 +37,7 @@ class Animal{
         this->age=age;
     }
     virtual void display(){
-        cout<<"Name: "<<name<<endl;
-        cout<<"Age: "<<age<<endl;
-        cout<<"Hunger status: "<<isHungry<<endl;
+        cout<<"Name: "<<name<<"( "<<age<<","<<isHungry<<")"<<endl;
     }
    bool getIsHungry(){
         return isHungry;
